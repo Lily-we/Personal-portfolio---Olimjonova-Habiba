@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0d0d0d; /* Deep black for the gothic feel */
+    color: #d3d3d3; /* Subtle grey for the text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #1a331a; /* Deep forest green */
+    border-radius: 10px;
+    background: linear-gradient(145deg, #111, #222); /* Subtle gradient for depth */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Header Styles */
+h1 {
+    color: #28a745; /* Forest green for the heading */
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styles */
+p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+/* Button Styles */
+.btn {
+    text-decoration: none;
+    color: #d3d3d3;
+    background-color: #1a331a; /* Deep forest green */
+    padding: 10px 20px;
+    border: 2px solid #28a745; /* Light green border for contrast */
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #28a745; /* Lighter green for hover effect */
+    color: #0d0d0d; /* Black text for hover effect */
+    box-shadow: 0 0 10px #28a745;
+}
